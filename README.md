@@ -1,7 +1,7 @@
 <h1>Password Generator Documentation</h1>
 <h2>Introduction</h2>
 The Password Generator is a web application that allows users to generate strong and secure passwords based on their preferences. It provides customizable options for password length and character types (lowercase, uppercase, digits, and special characters).
-<h3>Try it out here - https://vishsig.github.io/password-generator/ </h3>
+<h3>Try it out here -  https://vishsig.github.io/Password-Generator/ </h3>
 <h2>Features</h2>
 <h3>User Preferences:</h3><br>
 Users can select the desired password length using a range input.
