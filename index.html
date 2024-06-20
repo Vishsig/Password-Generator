@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+        <h1>Gradient Password</h1>
+        <i class='bx bxs-lock-open-alt'></i>
+    </div>
+        <div class="output">
+            <input type="text" id="password" placeholder="Password">
+            <button id="copy"  onclick="copyPassword()"><i class='bx bxs-copy' ></i></button>
+        </div>
+        <div class="btn">
+            <button disabled id="length">20</button>
+            <input id="range" type="range" step="1" min="8" max="30" value="50%">
+            <button id="create" onclick="createPassword()"><i class='bx bx-refresh'></i>Create</button>
+        </div>
+        <div class="message">
+            <p><span class="colon">"</span>Security practices recommend length of 12 or more<span class="colon">"</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
